@@ -1,0 +1,114 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+h1 {
+font-size: 30px;
+} 
+
+h2 {
+font-size: 25px;
+} 
+
+h1, h2, h3 {
+
+  font-family: 'Roboto Slab', serif;
+  color: ghostwhite;
+} 
+
+body {
+	background: #B3E8E5;
+	color: whitesmoke;
+text-align: center;
+font-size: 18px;
+font-family: 'Roboto Condensed', sans-serif;
+} 
+
+a {
+  color: whitesmoke;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+div{
+ text-align: center;
+}
+
+.round{
+ border-radius: 8px;
+}
+
+
+#intro {
+background: #3BACB6;  
+width: 600px;                      
+padding: 30px;          
+margin: 0 auto;
+border-radius: 8px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+
+.para {
+  background: #3BACB6;                        
+padding: 15px;    
+margin: 30px;                         
+border-radius: 8px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1); 
+}
+
+.footer {
+  background: #3BACB6;                     
+padding: 15px;    
+margin: 30px;  
+width: 600px;                       
+height: 100px;
+border-radius: 8px;                        
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+margin: 0 auto;
+ }
+
+
+.button {
+ background: #2F8F9D;
+ width: 50;
+ height: 30;
+ color: whitesmoke;
+ padding: 15px ;
+ border-radius: 8px;
+ text-decoration: none;
+ text-align: center;
+ vertical-align: middle;
+ margin: 10px ;
+}
+
+.list_inline {
+ list-style: none;
+ padding: 0px;
+ margin: 30px;
+ display: inline;
+}
+
+.list_inline li {
+display: inline;
+}
+
